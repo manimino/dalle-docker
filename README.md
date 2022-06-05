@@ -6,7 +6,7 @@ latest DALL-E Mega model.
 This Dockerfile will run the notebooks from that repo and generate you some images. 
 Just like the Huggingface space does. Haven't tried training yet.
 
-On an RTX 3090. Takes about 5.6 seconds per image (so 50 seconds for a 9-pack of images).
+On an RTX 3090, it takes about 5.6 seconds per image (so 50 seconds for a 9-pack of images).
 
 Image generation also worked on CPU, but took several minutes per image.
 
@@ -34,9 +34,10 @@ so... Google around. Good luck.
 
 ### Run the inference notebook
 
-Make a notebook and copy/paste stuff into it from the 
-[dalle-mini inference notebook](https://github.com/borisdayma/dalle-mini/blob/main/tools/inference/inference_pipeline.ipynb)
+Make a notebook in `/notebooks` and copy/paste stuff into it from the 
+[dalle-mini inference notebook](https://github.com/borisdayma/dalle-mini/blob/main/tools/inference/inference_pipeline.ipynb).
 
 Replace the DALLE_MODEL path with yours. So if you have checkpoint 15, it looks like:
 
 `DALLE_MODEL = "/artifacts/mega-1:v15"`
+
