@@ -3,11 +3,14 @@
 Follow instructions in [Boris Dayma's DALL-E mini repo](https://github.com/borisdayma/dalle-mini/) to download the 
 latest DALL-E Mega model.
 
-This Dockerfile will generate you some images just like the Huggingface space. 
+This Dockerfile will run the notebooks from that repo and generate you some images. 
+Just like the Huggingface space does. Haven't tried training yet.
 
-Tested working on an RTX 3090. Takes about 5.6 seconds per image (so 50 seconds for a 9-pack of images).
+On an RTX 3090. Takes about 5.6 seconds per image (so 50 seconds for a 9-pack of images).
 
-The images look good:
+Image generation also worked on CPU, but took several minutes per image.
+
+The images look great:
 
 ![Spiderman generated image](img/spidey.png)
 
